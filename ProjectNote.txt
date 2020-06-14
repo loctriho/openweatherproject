@@ -1,7 +1,7 @@
 I am very sick in the last couple days (catching a cold when i took a late cold shower at night on thursday)  so i cannot meet the project deadline.
 It took me first couple of days to understand the requirements of the assignment. I though i am required to save the forecast data in the database. But then i realize it would entails lots of complexity for the project.
 The things i have not completed for the project is to implement the front end for the retrieving and deleting from the database. Also
-i need to validate the requestparameters from the front end as well.
+i need to validate the requestparameters from the front end as well.Also i need to validate the request parameters sent from front end against null and invalid as well. My plan is to write an annotation for that.
 I add some libraries for json objects processing and caching for the API request. 
 From the website it states that the current weather data is updated every 10 minutes so i use the cache guava for that 
 so it improve memory usage for the database. If i have time i am going to implement the query caching for the Hibernate so it would improve loading time from the database. 
