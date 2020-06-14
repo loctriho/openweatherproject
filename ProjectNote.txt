@@ -1,13 +1,8 @@
 I am very sick in the last couple days (catching a cold when i took a late cold shower at night on thursday)  so i cannot meet the project deadline.
-It took me first couple of days to understand the requirements of the assignment. I though i am required to save the forecast data in the database.
-But then i realize it would entails lots of complexity for the project.
+It took me first couple of days to understand the requirements of the assignment. I though i am required to save the forecast data in the database. But then i realize it would entails lots of complexity for the project.
 The things i have not completed for the project is to implement the front end for the retrieving and deleting from the database 
-I add some libraries for json objects processing and caching for the API request. From the webssite it states that the current weather data
-is updated every 10 minutes so i use the cache guava for that so it improve memory usage for the database
-. If i have time i am going to implement the query caching for the Hibernate so
-it would improve loading time from the database. 
+I add some libraries for json objects processing and caching for the API request. From the website it states that the current weather data is updated every 10 minutes so i use the cache guava for that so it improve memory usage for the database. If i have time i am going to implement the query caching for the Hibernate so it would improve loading time from the database. 
 Additional setup:
-I use mysql workbench as the GUI for the mysql. For the database setup, all you need to do is to  create schema name WeatherData and run the sql script
-I attached inside the project.
+I use mysql workbench as the GUI for the mysql. For the database setup, all you need to do is to  create schema name WeatherData and run the sql script I attached inside the project.
 I convert the boiler template from spring to spring boot. So just import the project using eclipse and intellji and run the main app
-and you are good to go
+and you are good to go.
